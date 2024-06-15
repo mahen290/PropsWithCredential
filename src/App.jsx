@@ -14,12 +14,7 @@ function App() {
             <button className = "btn" onClick = { () => setX ( x + 1 ) }> Increment Counter </button>
             <button className = "btn" onClick = { () => setX ( x - 1 ) }> Decrement Counter </button>
         </div>
-        <Card 
-            title = "Tiger" 
-            source = "src\assets\Tiger.jpg" alt = "Tiger_Image" 
-            desc = "Wild Life Tiger Reserve In Our Indian Forests"
-            btn = "Click Here" > 
-        </Card>
+          <Card/>
     </div>
   );
 }

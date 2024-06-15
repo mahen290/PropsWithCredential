@@ -1,17 +1,17 @@
 import React from 'react';
 import './Card.css';
 
-function Card( { title, source, desc, btn } ) {
+function Card( props ) {
+
+    console.log(props);
 
     return (
-        <div>
             <div className = "card_container">
-                <h2> { title } </h2>
-                <img src = { source } />
-                <p> { desc } </p>
-                <button className ="new_btn"> { btn } </button>
+                <h2> { props.title } </h2>
+                <img src = { props.src } />
+                <p> { props.desc } </p>
+                <button className ="new_btn"> { props.button } </button>
             </div>
-        </div>
     );
 }
 
