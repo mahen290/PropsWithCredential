@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import Card from './components/Card';
+import Credential from './components/Credential';
 
 function App() {
 
@@ -14,7 +14,7 @@ function App() {
             <button className = "btn" onClick = { () => setX ( x + 1 ) }> Increment Counter </button>
             <button className = "btn" onClick = { () => setX ( x - 1 ) }> Decrement Counter </button>
         </div>
-          <Card/>
+        <Credential />
     </div>
   );
 }

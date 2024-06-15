@@ -38,3 +38,7 @@ p
         color: white;
         text-shadow: 2px 2px 1px black;
     }
+.img{
+    width: 100px;
+    height: 80px;
+}

@@ -1,10 +1,9 @@
 import React from 'react';
 import Card from "./Card";
 import Car from "../assets/Car.jpg";
-import MikeBird from "../assets/MikeBird.jpg"
+import MikeBird from "../assets/MikeBird.jpg";
  
 function Credential() {
-
     const credentials = [
 
         { id : 1, title : "Car_1", src : Car, desc : "This is Red Car Model No. 21009", button : "Book - Now" },
